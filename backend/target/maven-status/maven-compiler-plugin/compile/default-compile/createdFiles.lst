@@ -1,0 +1,11 @@
+com\dropbeam\DropBeamApplication.class
+com\dropbeam\config\CorsConfig.class
+com\dropbeam\model\FileItem.class
+com\dropbeam\config\WebSocketConfig.class
+com\dropbeam\model\Room.class
+com\dropbeam\service\CleanupScheduler.class
+com\dropbeam\controller\FileController.class
+com\dropbeam\service\StorageService.class
+com\dropbeam\model\TextItem.class
+com\dropbeam\controller\RoomController.class
+com\dropbeam\service\RoomService.class
