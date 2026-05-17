@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /room/
+Disallow: /download/
+
+Sitemap: https://drop-beam-mocha.vercel.app/sitemap.xml
