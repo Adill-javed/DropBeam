@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+
+# Java
+target/
+*.class
+
+# IntelliJ
+.idea/
+
+# Uploads
+uploads/
+
+# Env
+.env
+
+# Logs
+*.log
