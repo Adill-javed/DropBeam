@@ -115,7 +115,11 @@ export default function LandingPage() {
               transition={{ type: "spring", bounce: 0.5 }}
               className="w-20 h-20 bg-dark-card glass rounded-2xl mx-auto flex items-center justify-center shadow-[0_0_30px_rgba(56,189,248,0.3)] border border-white/10"
             >
-              {isSEOPage ? <Laptop className="w-10 h-10 text-dark-accent animate-pulse" /> : <Zap className="w-10 h-10 text-dark-accent" />}
+              <img 
+                src="/favicon.svg" 
+                alt="DropBeam Logo" 
+                className={`w-12 h-12 select-none ${isSEOPage ? 'animate-pulse' : ''}`} 
+              />
             </motion.div>
             
             {/* Dynamic SEO Title & Heading */}
