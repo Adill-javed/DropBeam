@@ -7,7 +7,8 @@ import toast from 'react-hot-toast';
 
 export default function LandingPage() {
   const navigate = useNavigate();
-  const { fromDevice, toDevice } = useParams();
+  const { devicePair } = useParams();
+  const [fromDevice, toDevice] = devicePair ? devicePair.split('-to-') : [null, null];
   const [loading, setLoading] = useState(false);
   const [joinCode, setJoinCode] = useState('');
   const [openFaq, setOpenFaq] = useState(null);
