@@ -27,6 +27,7 @@ function App() {
         <div className="relative z-10 min-h-screen">
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/transfer/:fromDevice-to-:toDevice" element={<LandingPage />} />
             <Route path="/room/:roomId" element={<DashboardPage />} />
             <Route path="/download/:roomId" element={<DownloadPage />} />
           </Routes>
